@@ -1,0 +1,9 @@
+docker build -t cclautert/devstore-web-mvc-ecommerce -f .\web\DevStore.WebApp.MVC\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-identity -f .\services\DevStore.Identity.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-cart -f .\services\DevStore.ShoppingCart.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-catalog -f .\services\DevStore.Catalog.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-customers -f .\services\DevStore.Customers.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-bff-checkout -f .\api-gateways\DevStore.Bff.Checkout\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-billing -f .\services\DevStore.Billing.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-api-order -f .\services\DevStore.Orders.API\Dockerfile --force-rm .
+docker build -t cclautert/devstore-web-status -f .\web\DevStore.WebApp.Status\Dockerfile --force-rm .

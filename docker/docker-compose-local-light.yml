@@ -3,7 +3,7 @@ version: "3"
 services:
 
     web-mvc:
-        image: desenvolvedorio/devstore-web-mvc-ecommerce:latest
+        image: cclautert/devstore-web-mvc-ecommerce:latest
         container_name: devstore-web-mvc-ecommerce
         build:
             context: ../src
@@ -47,7 +47,7 @@ services:
             ACCEPT_EULA: "Y"               
             
     api-identity:
-        image: desenvolvedorio/devstore-api-identity:latest
+        image: cclautert/devstore-api-identity:latest
         container_name: devstore-api-identity
         build: 
             context: ../src
@@ -68,7 +68,7 @@ services:
             - generate-pfx
 
     api-cart:
-        image: desenvolvedorio/devstore-api-cart:latest
+        image: cclautert/devstore-api-cart:latest
         container_name: devstore-api-cart
         build: 
             context: ../src
@@ -90,7 +90,7 @@ services:
             - generate-pfx
     
     api-catalog:
-        image: desenvolvedorio/devstore-api-catalog:latest
+        image: cclautert/devstore-api-catalog:latest
         container_name: devstore-api-catalog
         build: 
             context: ../src
@@ -111,7 +111,7 @@ services:
             - generate-pfx   
 
     api-customers:
-        image: desenvolvedorio/devstore-api-customers:latest
+        image: cclautert/devstore-api-customers:latest
         container_name: devstore-api-customers    
         build: 
             context: ../src
@@ -133,7 +133,7 @@ services:
             - generate-pfx
 
     api-bff-checkout:
-        image: desenvolvedorio/devstore-api-bff-checkout:latest
+        image: cclautert/devstore-api-bff-checkout:latest
         container_name: devstore-api-bff-checkout
         build: 
             context: ../src
@@ -155,7 +155,7 @@ services:
             - generate-pfx
 
     api-billing:
-        image: desenvolvedorio/devstore-api-billing:latest
+        image: cclautert/devstore-api-billing:latest
         container_name: devstore-api-billing    
         build: 
             context: ../src
@@ -178,7 +178,7 @@ services:
             - generate-pfx      
 
     api-order:
-        image: desenvolvedorio/devstore-api-order:latest
+        image: cclautert/devstore-api-order:latest
         container_name: devstore-api-order    
         build: 
             context: ../src
@@ -200,7 +200,7 @@ services:
             - generate-pfx                 
 
     web-status:
-        image: desenvolvedorio/devstore-web-status:latest
+        image: cclautert/devstore-web-status:latest
         container_name: devstore-web-status
         build: 
             context: ../src
