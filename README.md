@@ -1,13 +1,4 @@
-<p align="center">
-    <img alt="logo" src="https://user-images.githubusercontent.com/5068797/161198565-ac18c5ac-c0d9-4669-9568-b2009e944d77.png#gh-light-mode-only" />
-    <img alt="logo" src="https://user-images.githubusercontent.com/5068797/161364257-0c1d81f6-62ac-4192-93f8-836b4ce0fd06.png#gh-dark-mode-only" />
-</p>
-
 # DevStore - A microservices e-commerce reference application built with ASP.NET 6
-
-A real-world reference application powered by [desenvolvedor.io](https://desenvolvedor.io/) <img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> implementing the most common and used technologies to share with the technical community the best way to develop full and complex applications with .NET
-
----
 
 ###### This project was inspired by [EShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers), however the real motivation was to build it by "our way".
 
@@ -19,12 +10,6 @@ If you liked the project or if DevStore is helping you, please give us a star ;)
 <p align="center">
     <img alt="DevStore" src="https://user-images.githubusercontent.com/5068797/164293734-a72fbeeb-0965-4413-a624-29e1c56c25df.png" />
 </p>
-
-## Want to learn everything to build an app like this?  :mortar_board:
-Check this online courses at [desenvolvedor.io](https://desenvolvedor.io) (only in portuguese)
-
-- [ASP.NET Core Expert](https://desenvolvedor.io/formacao/asp-net-core-expert)
-- [Software Architect](https://desenvolvedor.io/formacao/arquiteto-de-software)
 
 ## Technologies / Components implemented
 
@@ -273,6 +258,3 @@ If you want to help us, choose an approved issue and implement it.
 
 ## We are Online
 See the project running on <a href="https://devstore.academy" target="_blank">DevStore official instance</a>
-
-## About
-DevStore was proudly developed by [desenvolvedor.io](https://desenvolvedor.io/)❤<img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> team under the [MIT license](LICENSE).
