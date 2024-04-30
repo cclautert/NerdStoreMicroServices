@@ -77,9 +77,8 @@ This is a reference application, each microservice has its own database and repr
 There is a BFF / API Gateway to manage the Basket / Order / Payment requests and data structure from responses.
 
 <p align="center">
-    <img alt="read before" src="https://github.com/cclautert/NerdStoreMicroServices/assets/14001285/b47953a9-9032-4aa6-9a84-5961d59a80e4" />
+    <img alt="read before" src="https://github.com/cclautert/NerdStoreMicroServices/assets/14001285/db870389-02a5-48fa-89fd-82f55ba9bce8" />
 </p>
-
 
 ---
 
