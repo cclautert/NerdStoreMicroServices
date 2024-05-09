@@ -14,6 +14,7 @@ services:
             ASPNETCORE_URLS: "https://+:443;http://+:80"
             ASPNETCORE_Kestrel__Certificates__Default__Password: 9HoGMnb7Lu8NFdHBz4Vq2rtKivzMhmMXhtvuB4TZcLMmbWfFmDQCjJeLURAJ4GYe
             ASPNETCORE_Kestrel__Certificates__Default__Path: /https/devstore.academy-localhost.pfx
+            USE_HTTPS_REDIRECTION: "false"
             LC_ALL: "en_US.UTF-8"
             LANG: "en_US.UTF-8"
             # Change the two lines above to your culture (ex pt_BR)
@@ -311,7 +312,10 @@ services:
         ports:
             - "7500:80"
             - "7501:443"
+            - "7510:8080"
+            - "7511:4443"
         depends_on:
             - web-mvc
 
-    
+volumes:
+    dpkeys:   
